@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    <!-- Others -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>高雄旅遊資訊</title>
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="header">
+            <h1>高雄旅遊資訊</h1>
+            <h2>--- 請選擇你要前往的行政區域 ---</h2>
+            <select class="selectStyle text-center" id="zoneSelect">
+                <option selected disabled>-- 請選擇行政區 --</option>
+            </select>
+
+            <div class="container top">
+                <p>熱門行政區</p>
+                <div id="hotZone" class="row topArea">
+                    <div class="col-3">
+                        <button style="background: #F5D005;border-radius:5px;" value="前鎮區">前鎮區</button>
+                    </div>
+                    <div class="col-3">
+                        <button style="background: #559AC8;border-radius:5px;" value="左營區">左營區</button>
+                    </div>
+                    <div class="col-3">
+                        <button style="background: #8A82CC;border-radius:5px;" value="苓雅區">苓雅區</button>
+                    </div>
+                    <div class="col-3">
+                        <button style="background: #FFA782;border-radius:5px;" value="三民區">三民區</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content">
+            <hr class="style1"><i class="far fa-arrow-alt-circle-down fa-arrow"></i>
+            <hr class="style1">
+            <h1 id="zoneTitle" class="zone_header"></h1>
+
+            <!-- 資料內容 -->
+            <div class="container">
+                <div id="resultList" class="row">
+                </div>
+            </div>
+
+            <!-- 分頁 -->
+            <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-center">
+                </ul>
+            </nav>
+        </div>
+
+        <div class="footer">
+            <p style="color: #FFFFFF;padding-top: 24px;">高雄旅遊網</p>
+            <p style="color: #FFD366;padding-top: 15px;">資料來源：高雄市政府</p>
+        </div>
+
+        <div class="scroll_top">
+            <i class="fas fa-arrow-up" style="font-size: 2rem; padding: 5px 10px;"></i>
+        </div>
+
+    </div>
+    <script src="js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

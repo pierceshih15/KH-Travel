@@ -1,0 +1,309 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html {
+	font-family: MicrosoftJhengHeiRegular;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+.wrap {
+	width: 1024px;
+	background-color: #ffffff;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.header {
+	height: 380px;
+	margin-bottom: 121px;
+	background-image: url(../css/images/Hero.png);
+}
+
+.header h1 {
+	font-family: PingFangTC-Regular;
+	font-size: 40px;
+	color: #FFFFFF;
+	letter-spacing: 3.89px;
+	padding: 89px 378.5px 20px 380.5px;
+}
+
+.header h2 {
+	font-family: PingFangTC-Regular;
+	font-size: 20px;
+	color: #FFFFFF;
+	padding: 20px 330px 0px 330px;
+	margin-bottom: 20px
+}
+
+.selectStyle {
+	width: 200px;
+	height: 30px;
+}
+
+#selectArea {
+	width: 452px;
+	height: 48px;
+	padding: 225px 279px 0px 293px;
+	background: rgba(255, 255, 255, 0.70);
+	border: 3px solid #FFFFFF;
+	border-radius: 3px;
+	font-family: PingFangTC-Regular;
+	font-size: 18px;
+	color: #000000;
+	line-height: 21px;
+	font-weight: bold;
+}
+
+#selectArea:hover,
+.top button:hover {
+	cursor: pointer;
+}
+
+.top {
+	background-color: #FFFFFF90;
+	margin: 79px 112px 37px 112px;
+	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.20);
+	border-radius: 5px;
+	width: 800px;
+	height: 112px;
+}
+
+.top p {
+	font-family: AppleSystemUIFont;
+	font-size: 20px;
+	color: #000000;
+	font-weight: bold;
+	padding: 20px 600px 14px 0px;
+}
+
+.top .topArea {
+	margin: 0px 0px 18px 51px;
+}
+
+.top button {
+	font-family: SFNSDisplay;
+	font-size: 20px;
+	color: #000000;
+	text-decoration: none;
+	padding: 11px 34px;
+	width: 130px;
+	height: 42px;
+}
+
+.content {
+	margin: 0px 40px;
+}
+
+.content .style1 {
+	border: 0px;
+	border-bottom: 1px dashed #559AC8;
+	width: 45%;
+	display: inline-block;
+}
+
+.fa-arrow {
+	border-radius: 50%;
+	color: #559AC8;
+	font-size: 30px;
+}
+
+.zone_header {
+	font-family: SFNSDisplay;
+	font-size: 36px;
+	color: #8A82CC;
+	margin: 35px auto 24px auto;
+}
+
+.card-img-title-lg {
+	font-family: SFNSDisplay;
+	font-size: 24px;
+	color: #f1a509;
+	background-color: gray;
+}
+
+.card-img-title-sm {
+	font-family: PingFangTC-Regular;
+	font-size: 16px;
+	color: #FFFFFF;
+	background-color: gray;
+}
+
+.card-p-text {
+	margin-bottom: 16px;
+	margin-left: 5px;
+	line-height: 18px;
+}
+
+.card-footer {
+	min-height: 150px;
+	padding: 20px 15px 5px 15px;
+}
+
+.fa-clock-time {
+	color: #8A82CC !important;
+	font-size: 16px !important;
+}
+
+.fa-map-gps {
+	color: orange !important;
+	font-size: 16px !important;
+}
+
+.fa-mobile {
+	color: blue !important;
+	font-size: 16px !important;
+}
+
+.pagination {
+	margin-top: 30px;
+}
+
+.footer {
+	margin-top: 39px;
+	height: 90px;
+	background-color: #559AC8;
+	font-family: AppleSystemUIFont;
+	font-size: 14px;
+	line-height: 17px;
+}
+
+.scroll_top {
+	position: fixed;
+	bottom: 15px;
+	right: 20px;
+	background-color: #00cc9950;
+	border-radius: 50%;
+}
